@@ -1,0 +1,12 @@
+INFO     my_log:BaseFuntest.py:134 加密的值为：appid=82e82b4703aaafff&data={"app_type":"0","appid":"82e82b4703aaafff"}&encrypt_type=PKCS7&funid=N03.00.05.11&sign_type=MD5&key=C9C9F54F74BD35DE5242885762E99E8B
+INFO     my_log:Access_token.py:18 签名是:0044225F6EEA08FE469ADF1E8B2D6C66
+INFO     my_log:Access_token.py:22 转换为json的数据{'funid': 'N03.00.05.11', 'data': {'app_type': '0', 'appid': '82e82b4703aaafff'}, 'appid': '82e82b4703aaafff', 'sign_type': 'MD5', 'encrypt_type': 'PKCS7', 'sign': '0044225F6EEA08FE469ADF1E8B2D6C66'}
+INFO     my_log:Access_token.py:26 data是：{"app_type":"0","appid":"82e82b4703aaafff"}
+INFO     my_log:Access_token.py:35 请求的参数是：{"funid": "N03.00.05.11", "encrypt_data": "udacTE352N5hOqGKEIo03EghHghApdQ3sctRJREhW7RO/CjdKL5x/rzZca/1Ojf5", "appid": "82e82b4703aaafff", "sign_type": "MD5", "encrypt_type": "PKCS7", "sign": "0044225F6EEA08FE469ADF1E8B2D6C66"}
+INFO     my_log:Access_token.py:37 正在请求地址https://open.ybj.fujian.gov.cn/api/gafe/rest
+INFO     my_log:BaseFuntest.py:134 加密的值为：appid=82e82b4703aaafff&data={"app_type":"0","appid":"82e82b4703aaafff"}&encrypt_type=PKCS7&funid=N03.00.05.11&sign_type=MD5&key=C9C9F54F74BD35DE5242885762E99E8B
+INFO     my_log:Access_token.py:18 签名是:0044225F6EEA08FE469ADF1E8B2D6C66
+INFO     my_log:Access_token.py:22 转换为json的数据{'funid': 'N03.00.05.11', 'data': {'app_type': '0', 'appid': '82e82b4703aaafff'}, 'appid': '82e82b4703aaafff', 'sign_type': 'MD5', 'encrypt_type': 'PKCS7', 'sign': '0044225F6EEA08FE469ADF1E8B2D6C66'}
+INFO     my_log:Access_token.py:26 data是：{"app_type":"0","appid":"82e82b4703aaafff"}
+INFO     my_log:Access_token.py:35 请求的参数是：{"funid": "N03.00.05.11", "encrypt_data": "udacTE352N5hOqGKEIo03EghHghApdQ3sctRJREhW7RO/CjdKL5x/rzZca/1Ojf5", "appid": "82e82b4703aaafff", "sign_type": "MD5", "encrypt_type": "PKCS7", "sign": "0044225F6EEA08FE469ADF1E8B2D6C66"}
+INFO     my_log:Access_token.py:37 正在请求地址https://open.ybj.fujian.gov.cn/api/gafe/rest

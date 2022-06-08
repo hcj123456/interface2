@@ -1,0 +1,10 @@
+2022-04-15 15:18:21,427 - [BaseFuntest.py-->line:134] - INFO: 加密的值为：appid=82e82b4703aaafff&data={"app_type":"0","appid":"82e82b4703aaafff"}&encrypt_type=PKCS7&funid=N03.00.05.11&sign_type=MD5&key=C9C9F54F74BD35DE5242885762E99E8B
+2022-04-15 15:18:21,428 - [Access_token.py-->line:18] - INFO: 签名是:0044225F6EEA08FE469ADF1E8B2D6C66
+2022-04-15 15:18:21,428 - [Access_token.py-->line:22] - INFO: 转换为json的数据{'funid': 'N03.00.05.11', 'data': {'app_type': '0', 'appid': '82e82b4703aaafff'}, 'appid': '82e82b4703aaafff', 'sign_type': 'MD5', 'encrypt_type': 'PKCS7', 'sign': '0044225F6EEA08FE469ADF1E8B2D6C66'}
+2022-04-15 15:18:21,428 - [Access_token.py-->line:26] - INFO: data是：{"app_type":"0","appid":"82e82b4703aaafff"}
+2022-04-15 15:18:21,430 - [Access_token.py-->line:35] - INFO: 请求的参数是：{"funid": "N03.00.05.11", "encrypt_data": "udacTE352N5hOqGKEIo03EghHghApdQ3sctRJREhW7RO/CjdKL5x/rzZca/1Ojf5", "appid": "82e82b4703aaafff", "sign_type": "MD5", "encrypt_type": "PKCS7", "sign": "0044225F6EEA08FE469ADF1E8B2D6C66"}
+2022-04-15 15:18:21,430 - [Access_token.py-->line:37] - INFO: 正在请求地址https://open.ybj.fujian.gov.cn/api/gafe/rest
+2022-04-15 15:18:21,668 - [test_hcj.py-->line:134] - INFO: 返回的结果是:{'traceid': '', 'flag': '1', 'sign': '9D634FD8293A4A2CCF35FD647EC2FA91', 'cause': '接口调用凭证获取成功', 'encrypt_data': 'H4uOScmL2uYPhq9Zrg/Vpe4iiGDL7m3EGh/aI4eHOGtZUzgv/bDZLdXdmMJYHOSxck30hry5GeS0C554rbzFbDR7ZcHNeruyvJLuV69adusEqJNxNgbfmWxyjdanieoCQNf1Dxz6nzpuSEppOxpvcuVI2D0zSwmO5JTH8jxJyQE='}
+2022-04-15 15:18:21,669 - [test_hcj.py-->line:136] - INFO: datas_encrypt是：H4uOScmL2uYPhq9Zrg/Vpe4iiGDL7m3EGh/aI4eHOGtZUzgv/bDZLdXdmMJYHOSxck30hry5GeS0C554rbzFbDR7ZcHNeruyvJLuV69adusEqJNxNgbfmWxyjdanieoCQNf1Dxz6nzpuSEppOxpvcuVI2D0zSwmO5JTH8jxJyQE=
+2022-04-15 15:18:21,670 - [test_hcj.py-->line:144] - INFO: access_token:888b4b26820b5923ef8d08d2d5cb1395
+2022-04-15 15:18:21,670 - [test_hcj.py-->line:174] - INFO: https://open.ybj.fujian.gov.cn/api/gafe/rest:用例执行通过
