@@ -66,6 +66,7 @@ class Test_ShengZhiTestCase_001:
     #     print(f3)
     # print(yaml.safe_load(f3))
     parames_data = read_yaml_data.ReadYamlData('0', 'Search_data1')
+
     # @pytest.mark.parametrize(('method', 'url', 'json', 'excepted', 'name', 'bool'), parames_data)
     @pytest.mark.parametrize('method, url, json, excepted, name, bool', parames_data)
     def test_shengzhi_public(self, method, url, json, excepted, name, bool, init1):
